@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +35,48 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+/* Custom styles for the signup form */
+.signup-container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.signup-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.signup-container .form-label {
+  margin-top: 10px;
+  margin-right: 50px;
+  font-weight: bold;
+}
+
+.signup-container .form-control {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  width: 50%;
+}
+
+.signup-container .btn-primary {
+  margin-top: 10px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.signup-container p {
+  text-align: center;
+}
+
+.signup-container .text-danger {
+  margin-top: 10px;
 }
